@@ -11,19 +11,29 @@ header{
     padding: 5px;
 }
 
+.blocco{
+    width: 90%;
+    height: 100%;
+    vertical-align: middle;
+    margin:auto;
+    margin-top: 60px;
+}
+
 .logo{
     display: inline-block;
+    vertical-align: middle;
 }
 
 .title{
     display: inline-block;
+    vertical-align: middle;
 }
 
-.container{
+.button-section{
+    padding: 1rem;
+    border: 1rem;
+    background-color: white;
 
-    width: 1000px;
-    padding: 60px 100px 60px;
-    background-color:white;
 }
 
 .button{
@@ -31,7 +41,6 @@ header{
     color: grey;
     border: 1px solid grey;
     background-color: white;
-
 }
 
 .button.azure{
@@ -40,16 +49,22 @@ header{
 }
 
 .list{
-    border:20px; ;
+    background-color: white;
+    padding: 2rem;
 }
 
 .list-title{
-
 }
 
 .icon{
     border-radius: 15px;
     background-color:cornflowerblue;
+    display: inline-block;
+    text-align: center;
+    width: 5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+    color: white;
 }
 
 .icon.viola{
