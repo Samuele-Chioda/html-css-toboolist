@@ -1,0 +1,73 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+header{
+    background-color: white;
+    padding: 5px;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.title{
+    display: inline-block;
+}
+
+.container{
+
+    width: 1000px;
+    padding: 60px 100px 60px;
+    background-color:white;
+}
+
+.button{
+    border-radius: 5px;
+    color: grey;
+    border: 1px solid grey;
+    background-color: white;
+
+}
+
+.button.azure{
+    background-color:cornflowerblue;
+    color: white;
+}
+
+.list{
+    border:20px; ;
+}
+
+.list-title{
+
+}
+
+.icon{
+    border-radius: 15px;
+    background-color:cornflowerblue;
+}
+
+.icon.viola{
+    background-color: blueviolet;
+    border-radius:15px ;
+}
+
+.icon.verde{
+    background-color: green;
+}
+.icon.arancio{
+    background-color: orange;
+}
+
+.icon.rosa{
+    background-color: pink;
+}
+
+.icon.verdone{
+    background-color: greenyellow;
+}
